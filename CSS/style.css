@@ -1,0 +1,25 @@
+/* Start Global Rulls  */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+/* End Global Rulls  */
+
+:root {
+  --main-color: #f73501;
+  --text-color: #272a31;
+  --bckground-color: #d3d3d3;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: var(--bckground-color);
+}
