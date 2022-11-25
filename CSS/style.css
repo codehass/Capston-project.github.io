@@ -22,6 +22,10 @@ a {
   color: var(--text-color);
 }
 
+i {
+  color: #fff;
+}
+
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -53,15 +57,47 @@ body {
     position: fixed;
   }
 
-  .show li {
-    font-size: 20px;
-    font-weight: 400;
-    color: var(--main-color);
+  .show li a {
+    font-size: 32px;
+    font-weight: 800;
+    color: #fff;
   }
+
   .container {
     width: 90%;
     padding: 10px;
     margin: 0 auto;
+  }
+
+  .hamburger i {
+    color: var(--text-color);
+  }
+
+  .close-menu {
+    display: none;
+  }
+
+  .close-menu.show-menu {
+    display: flex;
+  }
+
+  .hamburger.show {
+    display: block;
+  }
+
+  .menu-ele.hidden {
+    display: none;
+  }
+
+  .menu-ele.hidden {
+    display: none;
+  }
+
+  .close-menu.show-menu i {
+    color: #fff;
+    background: var(--main-color);
+    margin-top: 10px;
+    z-index: 3;
   }
 
   .hero {
@@ -74,6 +110,7 @@ body {
   .hero h1 {
     color: var(--main-color);
     margin: 10px 0;
+    font-size: 32px;
   }
 
   .hero-cont p:first-child {
@@ -148,8 +185,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 20px;
-    padding-left: 20px;
+    padding: 5%;
     background-color: rgb(86, 86, 86);
   }
 
@@ -161,15 +197,16 @@ body {
   .title-prog {
     color: var(--main-color);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.1rem;
     width: 15%;
     text-align: center;
   }
 
   .desp-prog {
     color: #fff;
-    font-size: 16px;
+    font-size: 0.9rem;
     letter-spacing: 1px;
+    width: 65%;
   }
 
   .btn-prog {
@@ -447,26 +484,6 @@ body {
     display: none;
   }
 
-  .show {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    background-color: #d3d3d3;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-  }
-
-  .show li {
-    font-size: 20px;
-    font-weight: 400;
-    color: var(--main-color);
-  }
   .container {
     width: 90%;
     padding: 10px;
@@ -523,12 +540,6 @@ body {
     align-items: center;
   }
 
-  .list-header.show li a {
-    color: #ffff;
-    font-size: 28px;
-    font-weight: 800;
-  }
-
   .list-header li a {
     font-size: 20px;
     font-weight: 400;
@@ -567,6 +578,7 @@ body {
   .hero h1 {
     color: var(--main-color);
     margin: 10px 0;
+    font-size: 40px;
   }
 
   .hero-desp {
@@ -645,8 +657,9 @@ body {
 
   .desp-prog {
     color: #fff;
-    font-size: 16px;
+    font-size: 0.9rem;
     letter-spacing: 1px;
+    width: 65%;
   }
 
   .btn-prog {
