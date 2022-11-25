@@ -60,15 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Capstone-Project: Programming Competion-page <a name="about-project"></a>
+# 📖 Capstone-Project: Coding tech conferences <a name="about-project"></a>
 
-**[Capstone-Project: Programming Competion-page]** is about a Programming competition which was held in Windhoek, Namibai at the Namibia Univeristy of Science and Technology.
-The Faculty of Computing and Informatics invited high schools and tertiary students to participate in the 7th NUST Annual National Programming Competition.
-There were amazing prizes to be won such as cash prizes, trophies, gadgets, medals and much more.
-This is made as Final Project (Capstone), of 1st Module at Microverse in order to attract job opportunities.
-The main objective is to develop a professional website which showcase my professional skills and also will meet the requirements of a client and be able to meet deadlines.
+**[Capstone-Project: Coding tech conferences]** is about a Programming Coding technologie conferences.
 
-[Loom Video Presentation](https://www.loom.com/share/4e554002386e4d16a57fb3c1d21e8b37)
+[Loom Video Presentation](https://www.loom.com/share/8901071b463047d9b596a8af97a6d671)
 
 ## 🛠 Built With <a name="built-with"></a>
     HTML
@@ -95,7 +91,7 @@ The main objective is to develop a professional website which showcase my profes
 
 - Open the command prompt in the created directory.
 
-- On the terminal run this command git clone https://github.com/Lucash2022/Capstone-Project-Competition-page.git
+- On the terminal run this command git clone https://github.com/codehass/Capston-project.github.io.git
 
 - Go to the repository folder using command prompt cd LucasErkanaPortfolio_Website.
 
