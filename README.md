@@ -16,7 +16,7 @@ This is made as Final Project (Capstone), of 1st Module at Microverse in order t
 The main objective is to develop a professional website which showcase my professional skills and also will meet the requirements of a client and be able to meet deadlines.
 
 
-[Loom Video Presentation](https://www.loom.com/share/d944d03df6ae4517b6de41aefbb00da7)
+[Loom Video Presentation]()
 >>>>>>> efb449574a89f51f74a8b2fc2fbc8a9489b5f399
 
 REQUIRED SECTIONS:
