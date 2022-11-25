@@ -50,7 +50,6 @@ body {
     background-color: var(--main-color);
     width: 100%;
     height: 100vh;
-    position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
@@ -89,10 +88,6 @@ body {
     display: none;
   }
 
-  .menu-ele.hidden {
-    display: none;
-  }
-
   .close-menu.show-menu i {
     color: #fff;
     background: var(--main-color);
@@ -113,15 +108,32 @@ body {
     font-size: 32px;
   }
 
+  .foot-text p {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .sect-thre p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  .cont-img h4,
+  .cont-img p {
+    z-index: 2;
+  }
+
+  .sect-two p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+  }
+
   .hero-cont p:first-child {
     font-size: 18px;
     color: var(--main-color);
     margin-top: 10vh;
-  }
-
-  .hero h1 {
-    color: var(--main-color);
-    margin: 10px 0;
   }
 
   .hero-desp {
@@ -164,7 +176,7 @@ body {
     position: relative;
   }
 
-  .program > h2:before {
+  .program > h2::before {
     content: '';
     width: 50px;
     height: 2px;
@@ -231,7 +243,7 @@ body {
     position: relative;
   }
 
-  .speacters > h2:before {
+  .speacters > h2::before {
     content: '';
     width: 50px;
     height: 2px;
@@ -269,7 +281,7 @@ body {
     position: relative;
   }
 
-  .info-spe h4:before {
+  .info-spe h4::before {
     content: '';
     width: 50px;
     height: 2px;
@@ -301,7 +313,7 @@ body {
     position: relative;
   }
 
-  .footer > h2:before {
+  .footer > h2::before {
     content: '';
     width: 50px;
     height: 2px;
@@ -354,16 +366,12 @@ body {
     width: 180px;
   }
 
-  .foot-text p {
-    font-size: 18px;
-    font-weight: 600;
-  }
-
   /* Start about page  */
   .sect-two {
     padding-bottom: 50px;
     border-bottom: 1px solid #b8b6b6;
   }
+
   .sect-two h2 {
     font-size: 28px;
     text-align: center;
@@ -373,7 +381,7 @@ body {
     position: relative;
   }
 
-  .sect-two h2:before {
+  .sect-two h2::before {
     content: '';
     width: 50px;
     height: 2px;
@@ -381,12 +389,6 @@ body {
     background-color: var(--main-color);
     left: 40%;
     bottom: 0;
-  }
-
-  .sect-two p {
-    text-align: center;
-    font-weight: 400;
-    font-size: 22px;
   }
 
   .sect-logo {
@@ -406,13 +408,7 @@ body {
     position: relative;
   }
 
-  .sect-thre p {
-    text-align: center;
-    font-weight: 400;
-    font-size: 22px;
-  }
-
-  .sect-thre h2:before {
+  .sect-thre h2::before {
     content: '';
     width: 50px;
     height: 2px;
@@ -453,15 +449,12 @@ body {
     position: absolute;
   }
 
-  .cont-img h4,
-  .cont-img p {
-    z-index: 2;
-  }
-
   .logo-footer > img {
     width: 100px;
   }
+
   /* End about page  */
+
   .logo {
     display: none;
   }
@@ -531,7 +524,7 @@ body {
     gap: 30px;
     color: #fff;
     margin: auto;
-    max-width: 1440p;
+    max-width: 1440px;
   }
 
   .list-header {
@@ -568,6 +561,28 @@ body {
   .hero-cont {
     position: relative;
     top: 194px;
+  }
+
+  .sect-two p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  .sect-thre p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  .cont-img h4,
+  .cont-img p {
+    z-index: 2;
+  }
+
+  .foot-text p {
+    font-size: 20px;
+    font-weight: 800;
   }
 
   .hero-cont p:first-child {
@@ -617,7 +632,7 @@ body {
     position: relative;
   }
 
-  .program > h2:before {
+  .program > h2::before {
     content: '';
     width: 50px;
     height: 2px;
@@ -683,7 +698,7 @@ body {
     position: relative;
   }
 
-  .speacters > h2:before {
+  .speacters > h2::before {
     content: '';
     width: 50px;
     height: 2px;
@@ -731,7 +746,7 @@ body {
     position: relative;
   }
 
-  .info-spe h4:before {
+  .info-spe h4::before {
     content: '';
     width: 50px;
     height: 2px;
@@ -757,7 +772,7 @@ body {
     position: relative;
   }
 
-  .footer > h2:before {
+  .footer > h2::before {
     content: '';
     width: 50px;
     height: 2px;
@@ -813,6 +828,7 @@ body {
     padding-bottom: 50px;
     border-bottom: 1px solid #b8b6b6;
   }
+
   .sect-two h2 {
     font-size: 28px;
     text-align: center;
@@ -822,7 +838,7 @@ body {
     position: relative;
   }
 
-  .sect-two h2:before {
+  .sect-two h2::before {
     content: '';
     width: 50px;
     height: 2px;
@@ -830,12 +846,6 @@ body {
     background-color: var(--main-color);
     left: 50%;
     bottom: 0;
-  }
-
-  .sect-two p {
-    text-align: center;
-    font-weight: 400;
-    font-size: 22px;
   }
 
   .sect-logo {
@@ -855,13 +865,7 @@ body {
     position: relative;
   }
 
-  .sect-thre p {
-    text-align: center;
-    font-weight: 400;
-    font-size: 22px;
-  }
-
-  .sect-thre h2:before {
+  .sect-thre h2::before {
     content: '';
     width: 50px;
     height: 2px;
@@ -901,18 +905,9 @@ body {
     position: absolute;
   }
 
-  .cont-img h4,
-  .cont-img p {
-    z-index: 2;
-  }
-
   .foot-logo {
     width: 180px;
   }
 
-  .foot-text p {
-    font-size: 20px;
-    font-weight: 800;
-  }
   /* End about page  */
 }
