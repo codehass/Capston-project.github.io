@@ -9,12 +9,6 @@ Modify this file to match your project and remove sections that don't apply.
 
 ## Capstone-Project: Programming Competion-page
 
-This project is about a Programming competition which was held in Windhoek, Namibai at the Namibia Univeristy of Science and Technology.
-The Faculty of Computing and Informatics invited high schools and tertiary students to participate in the 7th NUST Annual National Programming Competition.
-There were amazing prizes to be won such as cash prizes, trophies, gadgets, medals and much more.
-This is made as Final Project (Capstone), of 1st Module at Microverse in order to attract job opportunities.
-The main objective is to develop a professional website which showcase my professional skills and also will meet the requirements of a client and be able to meet deadlines.
-
 
 [Loom Video Presentation]()
 >>>>>>> efb449574a89f51f74a8b2fc2fbc8a9489b5f399
@@ -93,7 +87,7 @@ After you're finished please remove all the comments and instructions!
 
 - On the terminal run this command git clone https://github.com/codehass/Capston-project.github.io.git
 
-- Go to the repository folder using command prompt cd LucasErkanaPortfolio_Website.
+- Go to the repository folder using command prompt cd Capston-project.github.io.
 
 - Install the dev dependencies for linters run npm install.
 
