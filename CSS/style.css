@@ -489,13 +489,12 @@ body {
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    left: 5%;
     background-color: #fff;
     width: 90%;
     height: 65px;
     z-index: 5;
     top: 40px;
-    padding-left: 10%;
-    padding-right: 5%;
     margin: auto;
     max-width: 1440px;
   }
@@ -657,7 +656,7 @@ body {
     gap: 20px;
     padding: 20px 10px 40px 10px;
     background-color: rgb(86, 86, 86);
-    min-height: 400px;
+    height: 300px;
   }
 
   .card-prog:hover {
